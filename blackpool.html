@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Modern History vol. 1</title>
+<style type="text/css">
+<!--
+  .dragme{
+			position:relative;
+			cursor: move;
+		}
+		
+	#draggable {
+			background-color: #ccc;
+			border: 1px solid #000;
+		}
+		
+
+  .dragme1{
+			position:relative;
+			width: 399px;
+			height: 600px;
+			cursor: move;
+		}
+		
+	#draggable {
+			background-color: #ccc;
+			border: 1px solid #000;
+		}
+		.ok {
+	font-family: "Times New Roman", Times, serif;
+}
+.k {
+	color: #E9360C;
+}
+ook {
+	color: #DE2C00;
+}
+orange {
+	color: #E12E02;
+}
+.italic {
+	font-style: italic;
+}
+</style>
+		<script>
+function startDrag(e) {
+				// determine event object
+				if (!e) {
+					var e = window.event;
+				}
+                if(e.preventDefault) e.preventDefault();
+
+				// IE uses srcElement, others use target
+				targ = e.target ? e.target : e.srcElement;
+
+				if (targ.className != 'dragme') {return};
+				// calculate event X, Y coordinates
+					offsetX = e.clientX;
+					offsetY = e.clientY;
+
+				// assign default values for top and left properties
+				if(!targ.style.left) { targ.style.left='0px'};
+				if (!targ.style.top) { targ.style.top='0px'};
+
+				// calculate integer values for top and left 
+				// properties
+				coordX = parseInt(targ.style.left);
+				coordY = parseInt(targ.style.top);
+				drag = true;
+
+				// move div element
+					document.onmousemove=dragDiv;
+                return false;
+				
+			}
+			function dragDiv(e) {
+				if (!drag) {return};
+				if (!e) { var e= window.event};
+				// var targ=e.target?e.target:e.srcElement;
+				// move div element
+				targ.style.left=coordX+e.clientX-offsetX+'px';
+				targ.style.top=coordY+e.clientY-offsetY+'px';
+				return false;
+			}
+			function stopDrag() {
+				drag=false;
+			}
+			window.onload = function() {
+				document.onmousedown = startDrag;
+				document.onmouseup = stopDrag;
+			}
+			
+			
+			</script>
+
+</head>
+
+<body>
+<h3 class="k"><a href="http://www.grundyartgallery.com/programme/past/2015/109/">Modern History vol. 1</a> is an exhibition that brings together the work of artists from the North West, guest curated by Lynda Morris. 
+  
+  Artists: David Alker, Pavel Büchler, Clara Casian, Alan Dunn, The Exhibition Centre for the Life and Use of Books (Rob Carter, Dan Fogarty, Lauren Velvick), Mishka Henner, David Jacques, Tabitha Jussa, Rosalind Nashashibi and Lucy Skaer, Joe Fletcher Orr, David Osbaldeston, Susan Walsh, Gary Wiggins and Jen Wu</h3>
+<h3 class="k"><span class="italic">Modern History Vol. 1</span> will spotlight the work of artists based in the North West, and looks at how their art displays a sense of history, either by reflecting on historical change, particularly since the 1960s, or by looking at the global historical moment we are in. Works and items on display will explore strands as diverse as cinema, global communications and surveillance, warfare, football matches and leisure, and histories of cultural production such as Sci-fi and countercultural publishing in Manchester in the 1960s and 70s.</h3>
+<h3 class="k">This is the first of a series of three exhibitions of North West based artists taking place across the region in 2015. Initiated by the Contemporary Visual Arts Network North West (CVAN NW), the exhibitions at Grundy Art Gallery, Blackpool, Bury Art Museum & Sculpture Centre and The Atkinson, Southport form a core part of a programme of professional development for artists based in the North West which aims to give increased exposure both inside and outside the region. </h3>
+<h3 class="k">The exhibitions will be accompanied by a series of artist / curator talks, tours and open studios.
+  
+  It is curated by Lynda Morris, who founded and curated the highly regarded international open EASTinternational in Norwich from 1991 to 2009, and more recently the Picasso exhibition at Tate Liverpool in 2010.
+  
+  Lynda Morris said: “I know from curating EASTinternational that the North West has some of the best artists working in Europe today. It is still possible to be an artist who is a moral force in modern history, if you make work about the life of the people in Manchester, Liverpool, Preston, Birkenhead or Cumbria.” </h3>
+<p>DOWNLOAD CATTALOUGE TEXTS HERE<br />
+
+  <a href="Images/blackpool/PippaPippa.pdf">PippaPippa</a><br /> 
+<a href="Images/blackpool/The Time is Out of Joint_Lauren Velvick.pdf">The Time is Out of Joint</a><br />
+<a href="Images/blackpool/pm_Daniel_Fogarty.pdf">PM</a><br />
+</p>
+<p>&nbsp;</p>
+<img src="Images/blackpool/blackpool_1.png" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+<img src="Images/blackpool/blackpool_2.png" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+<img src="Images/blackpool/blackpool_3.png" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+<img src="Images/blackpool/blackpool_4.png" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+<img src="Images/blackpool/blackpool_5.png" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+<img src="Images/blackpool/blackpool_6.png" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+<img src="Images/blackpool/blackpool_7.png" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+<img src="Images/blackpool/blackpool_8.png" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+<img src="Images/blackpool/blackpool_9.png" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+<img src="Images/blackpool/blackpool_10.png" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+ 
+</body>
+</html>
